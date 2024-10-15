@@ -1,0 +1,62 @@
+/* Reset CSS untuk mengatur padding dan margin default */
+body, h1, a {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Mengatur gaya body */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #f16f8e, #4bb6f8, #57929f);
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Container untuk membungkus konten */
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 100%;
+    margin: 0 20px;
+}
+
+/* Gaya untuk judul */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #171010;
+}
+
+/* Gaya untuk kotak link */
+.link-box {
+    background-color: #fff;
+    color: #0e0d0d;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Gaya link di dalam kotak */
+.link-box a {
+    text-decoration: none;
+    color: #ff9a9e;
+    font-weight: bold;
+    display: block;
+}
+
+/* Hover effect untuk kotak link */
+.link-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
